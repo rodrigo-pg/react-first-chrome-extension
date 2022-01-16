@@ -1,0 +1,47 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.page-container svg {
+    align-self: center;
+    margin-left: 15rem;
+    fill: white;
+    background: black;
+    border-radius: 100%;
+    padding: 0.15rem;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.page-container svg:hover {
+    transform: scale(1.05);
+}
+
+.page-container h1 {
+    margin: 0;
+}
+
+.page-container button {
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: black;
+    border-radius: 0.625rem;
+    padding: 0.6rem 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1rem;
+    transition: 0.25s ease-in-out;
+}
+
+.page-container button:hover {
+    transform: scale(1.05);
+    filter: brightness(0.8);
+}
