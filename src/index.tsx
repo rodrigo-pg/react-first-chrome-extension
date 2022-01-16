@@ -9,3 +9,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+//Made with help of https://medium.com/@rajithaeye/how-to-build-a-chrome-extension-using-your-reactjs-app-3655dc08fd16
